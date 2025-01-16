@@ -4,9 +4,15 @@ from snowflake.snowpark.functions import col
 
 
 # Write directly to the app
-st.title("Customize your smoothie! :cup_with_straw:")
+st.title("My Parents New Healthy Diner")
+st.markdown('# Breakfast Menu')
 st.write(
-    """Choose the fruits you want in your custom Smoothie!
+    """
+    Omega 3 & Blueberrry Oatmeal
+    
+    Kale, Spinach & Rocket Smoothie
+    
+    Hard-Boiled Free-Range Egg
     """
 )
 
